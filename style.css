@@ -27,7 +27,10 @@ body {
 .createlist {
     text-align: center;
 }
+#userinput {
+    width: 60%;
 
+}
 
 .done {
     text-decoration: line-through;
