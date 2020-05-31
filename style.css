@@ -2,7 +2,6 @@ body {
     background-color: aliceblue;
     min-height: 100vh;
 }
-
 .coolTitle{
     padding: 15px;
     text-align: center;
@@ -31,11 +30,9 @@ body {
     width: 60%;
 
 }
-
 .done {
     text-decoration: line-through;
 }
-
 .itemlist {
     padding-top: 1rem;
     text-align: left;
@@ -43,7 +40,6 @@ body {
     /* color: hsl(138, 83%, 49%); */
     /* list-style-type: none; */
 }
-
 .coolFooter {
     /* text-align: center; */
     /* padding-top: 20rem; */
