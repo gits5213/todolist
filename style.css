@@ -1,3 +1,7 @@
+body {
+    background-color: aliceblue;
+}
+
 .coolTitle{
     padding: 15px;
     text-align: center;
@@ -36,7 +40,20 @@
     /* list-style-type: none; */
 }
 
-.footer {
+.coolFooter {
+    /* text-align: center; */
+    /* padding-top: 20rem; */
+
+    /* padding: 15px; */
     text-align: center;
-    padding-top: 20rem;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-size: 10px;
+    /* transform: skewY(-10deg); */
+    /* transform: skewY(0deg); */
+    /* letter-spacing: 4px; */
+    /* word-spacing: -8px; */
+    color: rgb(29, 32, 219);
+    bottom: 0;
+    position: absolute;
+    width: 100%;
 }
