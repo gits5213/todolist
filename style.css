@@ -1,5 +1,6 @@
 body {
     background-color: aliceblue;
+    min-height: 100vh;
 }
 
 .coolTitle{
@@ -54,6 +55,6 @@ body {
     /* word-spacing: -8px; */
     color: rgb(29, 32, 219);
     bottom: 0;
-    position: absolute;
+    position: fixed;
     width: 100%;
 }
