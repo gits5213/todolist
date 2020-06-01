@@ -13,22 +13,20 @@ function inputLength(){
 
 function createListElement(){
 
-    
-
+    //Create item list
     var li = document.createElement("li");
-    li.appendChild(document.createTextNode(input.value));
-    ol.appendChild(li)
+    li.appendChild(document.createTextNode(input.value + " "));
+    ol.appendChild(li);
     input.value = "";
-
 
     //Create checkbox
     var checkbox = document.createElement("input");
     checkbox.type = "checkbox"; 
-    checkbox.name = "slct[]";
-    checkbox.value = ""; 
-    checkbox.appendChild(document.createTextNode(checkbox.value))
     li.appendChild(checkbox);
- 
+    //checkbox.name = "slct[]";
+    //checkbox.value = " "; 
+    //checkbox.appendChild(document.createTextNode(""))
+
     //====Create delete button
     var btn = document.createElement("button");
     btn.appendChild(document.createTextNode("D"));
@@ -64,8 +62,8 @@ function removeParent(event){
 	event.target.parentNode.remove();
 }
 //==Check and Strickthrough on the item
-function updateItem(){
-    if (checkbox.checked){
-      checkbox.style.textDecoration="line-through";
-    }
-  }
+// function updateItem(){
+//     if (checkbox.checked){
+//       checkbox.style.textDecoration="line-through";
+//     }
+//   }
